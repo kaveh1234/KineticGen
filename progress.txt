@@ -1,0 +1,39 @@
+
+---Oct22-----[
+Created main project folder KineticGen
+
+Made subfolders (src, data, app, r, notebooks, tests, etc.)
+
+Installed Python 3.11
+
+Created virtual environment .venv
+
+Fixed PowerShell script permissions
+
+Activated virtual environment successfully
+
+Installed and opened Neovim
+
+Learned basic Neovim commands (i, :wq, :!python %)
+
+Wrote and ran first Python script
+
+Tested requests + BeautifulSoup (successful web fetch)
+
+Installed Git
+
+Added Git to PATH so PowerShell recognizes it
+
+Initialized Git repository (git init)
+
+Created .gitignore file
+
+Configured Git username and email
+
+Made first commit
+
+Created GitHub repository (KineticGen)
+
+
+
+
