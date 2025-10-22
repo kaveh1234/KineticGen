@@ -34,6 +34,20 @@ Made first commit
 
 Created GitHub repository (KineticGen)
 
+Fixed GitHub push issues
+
+Pulled remote files (README.md, progress.txt) and merged cleanly
+
+Synced local repo with GitHub successfully
+
+Noticed folders missing on GitHub (Git ignores empty folders)
+
+Added .keep placeholder files to each project folder
+
+Committed and pushed placeholders
+
+Verified all folders now visible on GitHub
+
 
 
 
