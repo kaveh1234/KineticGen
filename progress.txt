@@ -1,5 +1,5 @@
 
----Oct22-----[
+---Oct20-----[
 Created main project folder KineticGen
 
 Made subfolders (src, data, app, r, notebooks, tests, etc.)
@@ -47,6 +47,24 @@ Added .keep placeholder files to each project folder
 Committed and pushed placeholders
 
 Verified all folders now visible on GitHub
+
+-----------oct21-----------
+
+Created first real script src/ingest/scrape_results.py
+
+Learned basic Neovim editing workflow
+
+Installed and tested web-scraping libraries (requests, BeautifulSoup, pandas)
+
+Fixed column length mismatch error
+
+Replaced full script with working adaptive version
+
+Ran scraper successfully (fetched 100 m data from World Athletics)
+
+Generated and saved dataset → data/processed/results.parquet
+
+Verified file creation and readable in pandas
 
 
 
