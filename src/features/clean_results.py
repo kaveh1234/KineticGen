@@ -12,6 +12,15 @@ output_path = Path("data/processed/results_clean.parquet")
 print("🔍 Loading raw results...")
 df = pd.read_parquet(input_path)
 
+# Fix misaligned columns from scraping (venue/date/resultscore swapped)
+if "venue" in df.columns and df["venue"].astype(str).str.strip().eq("").any():
+    print("🩺 Fixing column alignment...")
+    df["venue"] = df["date"]            # real venues were stored under 'date'
+    df["date"] = df["resultscore"]      # real dates under 'resultscore'
+    df["resultscore"] = df["competition"]  # shift resultscore
+    df["competition"] = None            # clear unused
+
+
 # Drop rows with missing performance
 df = df[df["perf"].notna() & (df["perf"] != "")]
 
