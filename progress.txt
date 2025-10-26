@@ -66,6 +66,21 @@ Generated and saved dataset → data/processed/results.parquet
 
 Verified file creation and readable in pandas
 
+-----------oct23-------------
+
+Fixed column misalignment in cleaned dataset
+
+Verified correct venue/date structure
+
+Geocoded venues and fetched real weather data
+
+Computed air-density physics variable
+
+Saved enriched dataset (results_weather.parquet)
+
+Committed and pushed full working pipeline
+
+----------oct25---------------
 
 
 
