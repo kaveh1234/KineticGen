@@ -80,7 +80,16 @@ Saved enriched dataset (results_weather.parquet)
 
 Committed and pushed full working pipeline
 
-----------oct25---------------
+----------oct28---------------
+
+scrape_results.py → gets raw data
+
+clean_results.py → fixes misaligned columns
+
+add_weather_altitude.py → adds lat/lon, weather, and ρ_air
+
+physics_corrections.py → converts to neutral (physics-corrected) time
+
 
 
 
