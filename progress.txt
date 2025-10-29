@@ -90,6 +90,14 @@ add_weather_altitude.py → adds lat/lon, weather, and ρ_air
 
 physics_corrections.py → converts to neutral (physics-corrected) time
 
+-----------oct29----------------
+
+Real altitudes & air densities integrated
+
+Physics correction finalized & validated
+
+Git fully up-to-date
+
 
 
 
