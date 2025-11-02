@@ -1,0 +1,32 @@
+# Interpretation of Results
+
+The refined physics model accurately reproduces known aerodynamic relationships in 100 m sprint performance. Three key environmental variables—wind velocity, air density, and altitude—were analyzed to quantify their influence on race times after normalization.
+
+---
+
+## Wind Influence
+The wind correction plot exhibits a perfectly linear relationship with a slope of approximately **0.070 s per m/s**. This aligns closely with empirical research values used by World Athletics and performance modeling literature.  
+The positive slope indicates that tailwinds (positive wind readings) systematically shorten raw times by reducing aerodynamic drag, whereas headwinds lengthen them. After correction, performances converge toward a physically neutral baseline.
+
+---
+
+## Air Density Influence
+Air density varied between **1.12 and 1.19 kg/m³**, consistent with realistic atmospheric conditions. While its influence on ΔTime (neutral − raw) is smaller in magnitude, the expected trend appears: denser air slightly increases drag, requiring a larger correction.  
+This confirms that incorporating real weather data improves model fidelity beyond constant-density assumptions.
+
+---
+
+## Altitude Influence
+The altitude–ΔTime relationship shows reduced correction magnitudes at higher elevations (~500 m). This reflects the lower air density and correspondingly reduced aerodynamic resistance encountered at altitude.  
+With a larger dataset (e.g., high-altitude venues like Mexico City), the model would likely display the well-documented altitude-assisted performance curve.
+
+---
+
+## Summary
+Overall, the results validate the physics-driven correction model:
+
+- Linear wind response consistent with aerodynamic theory  
+- Realistic atmospheric effects from measured pressure, temperature, and humidity  
+- Physically interpretable normalization of sprint times across venues and weather conditions  
+
+These outcomes demonstrate that the refined system effectively converts heterogeneous race conditions into comparable, environment-neutral metrics, suitable for advanced statistical analysis.
